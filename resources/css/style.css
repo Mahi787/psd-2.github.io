@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    transition: .3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    outline: none;
+}
+.head{
+
+}
+.services{
+
+    height: 50vh;
+}
+.services .wrap{
+    
+}

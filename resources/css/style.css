@@ -26,13 +26,25 @@ button:hover{
 button:active{
     outline: none;
 }
-.head{
+.wrap_nav{
+    width: 100%;
+}
+.nav{
 
 }
-.services{
-
-    height: 50vh;
+.crieteria p{
+ text-transform: uppercase;
 }
-.services .wrap{
-    
+.crieteria{
+display: inline-block;
+}
+.main_nav{
+    float: right;
+}
+.main_nav ul li{
+    float: left;
+    margin-left: 45px;
+}
+.main_nav ul li:first-child{
+    margin-left: 0;
 }

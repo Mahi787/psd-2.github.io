@@ -26,14 +26,22 @@ button:hover{
 button:active{
     outline: none;
 }
-.wrap_nav{
+.head{
+    overflow-x: hidden;
+    background:url(img/main.png);
+}
+.wrap{
     width: 100%;
+    overflow: hidden;
 }
 .nav{
-
+    width: 80%;
+    margin: 4% 0% 4% 7%;
 }
 .crieteria p{
- text-transform: uppercase;
+    text-transform: uppercase;
+    text-shadow: 1px 9px 8px rgba(44, 40, 40, 0.84);
+    letter-spacing: 8px;
 }
 .crieteria{
 display: inline-block;
@@ -44,7 +52,26 @@ display: inline-block;
 .main_nav ul li{
     float: left;
     margin-left: 45px;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
 }
 .main_nav ul li:first-child{
     margin-left: 0;
+}
+.main_nav ul li a{
+    font-size: 18px;
+    color: rgba(7, 6, 6, 0.829);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.main_nav ul li:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    text-shadow: 0px 5px 4px gray;
 }

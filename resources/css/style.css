@@ -27,16 +27,21 @@ button:active{
     outline: none;
 }
 .head{
-    overflow-x: hidden;
-    background:url(img/main.png);
+        overflow-x: hidden;
+        background: url(img/main.png);
+        background-repeat: no-repeat;
+        background-size: 78% 103%;
+        height: 80vh;
+        background-color: #f1efedcc;
+    
 }
 .wrap{
     width: 100%;
     overflow: hidden;
 }
 .nav{
-    width: 80%;
-    margin: 4% 0% 4% 7%;
+    width: 70%;
+    margin: 4% 0% 4% 13%;
 }
 .crieteria p{
     text-transform: uppercase;
@@ -74,4 +79,41 @@ display: inline-block;
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     text-shadow: 0px 5px 4px gray;
+}
+.desc{
+    width: 33%;
+    height: 50%;
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.xd{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.desc h5{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.lol{
+    font-family: 'Raleway', sans-serif;
+    /*width: 32%;*/
+}
+.desc button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #1769ff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
 }

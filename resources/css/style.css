@@ -27,7 +27,7 @@ button:active{
     outline: none;
 }
 .head{
-        overflow-x: hidden;
+        overflow: hidden;
         background: url(img/main.png);
         background-repeat: no-repeat;
         background-size: 78% 103%;
@@ -86,7 +86,7 @@ display: inline-block;
     float: right;
     overflow: hidden;
     padding: 15px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 100px;
 }
 .xd{
